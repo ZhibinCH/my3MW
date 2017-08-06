@@ -19,5 +19,65 @@
     "fields": {
       "name": "XYZ Site"
     }
-   }
+   },
+  {
+    "model": "sites.site",
+    "pk": 1,
+    "fields": {
+      "site_id" : 1,
+      "date" : "2015-02-01",
+      "a_value" : 12.0,
+      "b_value" : 16.0
+    }
+  },
+  {
+    "model": "sites.site",
+    "pk": 2,
+    "fields": {
+      "site_id" : 1,
+      "date" : "2015-02-03",
+      "a_value" : 20.0,
+      "b_value" : 100.0
+    }
+  },
+  {
+    "model": "sites.site",
+    "pk": 3,
+    "fields": {
+      "site_id" : 1,
+      "date" : "2015-02-10",
+      "a_value" : 20,
+      "b_value" : 80
+    }
+  },
+  {
+    "model": "sites.site",
+    "pk": 4,
+    "fields": {
+      "site_id" : 2,
+      "date" : "2015-02-03",
+      "a_value" : 5,
+      "b_value" : 15
+    }
+  },
+  {
+    "model": "sites.site",
+    "pk": 5,
+    "fields": {
+      "site_id" : 3,
+      "date" : "2015-02-15",
+      "a_value" : 5,
+      "b_value" : 15
+    }
+  },
+  {
+    "model": "sites.site",
+    "pk": 6,
+    "fields": {
+      "site_id" : 3,
+      "date" : "2015-02-28",
+      "a_value" : 5,
+      "b_value" : 15
+    }
+  }
 ]
