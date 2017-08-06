@@ -10,14 +10,14 @@
     "model": "sites.sites",
     "pk": 2,
     "fields": {
-      "first_name": "ABC Site"
+      "name": "ABC Site"
     }
   },
   {
     "model": "sites.sites",
     "pk": 3,
     "fields": {
-      "first_name": "XYZ Site"
+      "name": "XYZ Site"
     }
    }
 ]
