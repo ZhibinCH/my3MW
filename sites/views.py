@@ -29,5 +29,5 @@ def sites_overview(request):
 
 
 def site_detail(request,site_id):
-    site = Sites.objects.filter(site_id = site_id)
+    site = Site.objects.filter(site_id = site_id)
     return render_to_response('sites/site_detail.html',{'site':site})
