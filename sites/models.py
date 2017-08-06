@@ -10,4 +10,10 @@ from django.db import models
 class Sites(models.Model):
     name = models.CharField(max_length=30)
 
+class Site(models.Model):
+    site_id = models.ForeignKey(Sites, on_delete=models.CASCADE)
+    date = models.DateTimeField('Date')
+    a_value = models.DecimalField('A Value',max_digits=5, decimal_places=2)
+    b_value = models.DecimalField('B Value',max_digits=5, decimal_places=2)
+
 
