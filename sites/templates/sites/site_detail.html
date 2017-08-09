@@ -26,20 +26,20 @@
       </nav>
 
     <div class="container">
-        {% with site|first as first_ele %}
-        <h1>Site Details - {{first_ele.site_name}}</h1>
-        {% endwith %}
+        <h1>Site Details - {{site_name}}</h1>
         <table class="table">
             <thead>
                 <tr><td><strong>Date</strong></td>
                 <td><strong>A Value</strong></td><td><strong>B Value</strong></td></tr>
             </thead>
+            
             {% for site_obs in site %}
-                <tr>
+                 <tr>
                     <td>{{site_obs.date|date:'N j, Y'}}</td>
                     <td>{{site_obs.a_value}}</td>
                     <td>{{site_obs.b_value}}</td>
-                </tr>
+                </tr> 
+                
             {% endfor %}
         
         </table>
